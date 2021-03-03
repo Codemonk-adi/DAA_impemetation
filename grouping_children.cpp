@@ -13,7 +13,7 @@ int main(){
         ages.push_back(t);
     }
     sort(ages.begin(),ages.end());
-    int p=0;
+    int p=1;
     float min=ages[0];
     for( auto i : ages){
         if(i-min>1){
@@ -22,4 +22,5 @@ int main(){
         }
     }
     cout<<p;
+    return 0;
 }
