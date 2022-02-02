@@ -36,7 +36,7 @@ int main(){
     WV.push_back(make_pair(2,7));
     WV.push_back(make_pair(3,13));
     
-    knapsack_weight=11;
+    knapsack_weight=12;
     int soln;
     soln = solution(WV,knapsack_weight);
     cout<<soln;
